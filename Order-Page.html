@@ -77,6 +77,82 @@
           address, quantity, etc.), they must contact the support team within 1
           hour of placing the order.
         </li>
+        <fieldset>
+          <legend>Order Form</legend>
+          <p>Please fill out the following form to place your order.</p>
+          <form action="">
+          <h3>Personal Information</h3>
+          <label for="name">full name:</label>
+          <input type="text" placeholder=" write name and last name" id="name">
+          <label for="phone"> phone number:</label>
+          <input type="tel" placeholder="+98-123456789" id="phone">
+          <label for="email">email:</label>
+          <input type="email" placeholder="abdc@gmail.com" id="email">
+          <h3>Shipping Information</h3>
+          <label for="address">address:</label>
+          <input type="text" name="address" id="address">
+          <label for="Postal Code">Postal Code:</label>
+          <input type="number" id="Postal Code">
+          <h3>Order Details</h3>
+          <label for="product">product:</label>
+          <select name="product" id="product">
+            <option value="Basket Weaving ">Basket Weaving </option>
+            <option value="Termeh">Termeh</option>
+            <option value="Copperware">Copperware</option>
+            <option value=" Minakari"> Minakari</option>
+          </select>
+          <label for="Quantity">Quantity:</label>
+          <input type="number" name="Quantity" id="Quantity">
+          <label for="color">color:</label>
+          <input type="color" id="color">
+          <label for="notes">Additional Notes</label>
+          <input type="text" placeholder="Additional Notes" id="notes">
+          <h3>Payment Information</h3>
+          <label for="Credit">Credit/Debit Card:</label>
+          <input type="radio" id="Credit" name="method">
+          <label for="Bank">Bank Transfer</label>
+          <input type="radio" id="Bank" name="method">
+          <label for="PayPal">PayPal</label>
+          <input type="radio" id="PayPal" name="method">
+          <br>
+          <button>submit</button>
+        </form>
+        </fieldset>
+        <section>
+        <h2>best-selling product</h2>
+        <table border="1px">
+          <thead>
+            <tr>
+              <th>image</th>
+              <th>name</th>
+              <th>price</th>
+              <th>Stock Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="./image/حصیر.jpg" alt="">
+              </td>
+              <td>Basket</td>
+              <td>5$</td>
+              <td style="color: green;">in stok</td>
+            </tr>
+            <tr>
+              <td><img src="./image/مس.jpg" alt=""></td>
+              <td>Copperware</td>
+              <td>15$</td>
+              <td style="color:red;">Out of Stock</td>
+            </tr>
+            <tr>
+              <td><img src="./image/مینا.jpg" alt=""></td>
+              <td>minakary</td>
+              <td>10$</td>
+              <td style="color: green;">in stok</td>
+            </tr>
+          </tbody>
+        </table>
+        </sectionn>
     </main>
   </body>
 </html>
