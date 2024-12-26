@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>order placement page</title>
+  </head>
+  <body>
+    <head>
+      <h1>Shop & Order</h1>
+      <img src="./image/logo.jpg" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">product</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </nav>
+    </head>
+    <main>
+      <h1>Terms and Conditions for Placing Orders</h1>
+      <ol>
+        <li>
+          <span style="color: rgb(221, 0, 255)"
+            >Correct and Complete Information:</span
+          >
+          <br />
+          The customer is responsible for providing correct and complete contact
+          details and address. Any errors resulting from incorrect information
+          entered are the customer's responsibility.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Payment:</span> <br />Payment
+          methods include online payment and cash on delivery. Orders with
+          online payment will be prioritized for processing.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Order Cancellation:</span><br />
+          The customer may cancel their order only within 2 hours after placing
+          it. After this period, the order will be prepared for dispatch.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Delivery Time:</span><br />
+          The delivery time for orders is between 3 to 5 working days.
+          Customized products may require additional time for delivery.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Customized Products:</span>
+          <br />For products designed or manufactured based on the customer's
+          specific request, cancellations or refunds are not allowed.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Product Returns:</span><br />
+          If there is a defect or issue with the product, the customer must
+          contact the support team within 24 hours of receiving the order.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Shipping Costs:</span>
+          <br />Shipping costs are the responsibility of the customer and will
+          be calculated at the time of order placement. Free shipping is offered
+          for orders above 1 million Toman.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Order Tracking:</span><br />
+          A tracking code will be sent to the customer's contact number or email
+          after the order is placed. Customers can check the status of their
+          order via the "Track Order" section.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Limited Products:</span><br />
+          Some products may have limited availability due to material
+          constraints or quantity limits.
+        </li>
+        <li>
+          <span style="color: rgb(221, 0, 255)">Order Modification:</span><br />
+          If the customer needs to change the details of their order (such as
+          address, quantity, etc.), they must contact the support team within 1
+          hour of placing the order.
+        </li>
+        <fieldset>
+          <legend>Order Form</legend>
+          <p>Please fill out the following form to place your order.</p>
+          <form action="">
+          <h3>Personal Information</h3>
+          <label for="name">full name:</label>
+          <input type="text" placeholder=" write name and last name" id="name">
+          <label for="phone"> phone number:</label>
+          <input type="tel" placeholder="+98-123456789" id="phone">
+          <label for="email">email:</label>
+          <input type="email" placeholder="abdc@gmail.com" id="email">
+          <h3>Shipping Information</h3>
+          <label for="address">address:</label>
+          <input type="text" name="address" id="address">
+          <label for="Postal Code">Postal Code:</label>
+          <input type="number" id="Postal Code">
+          <h3>Order Details</h3>
+          <label for="product">product:</label>
+          <select name="product" id="product">
+            <option value="Basket Weaving ">Basket Weaving </option>
+            <option value="Termeh">Termeh</option>
+            <option value="Copperware">Copperware</option>
+            <option value=" Minakari"> Minakari</option>
+          </select>
+          <label for="Quantity">Quantity:</label>
+          <input type="number" name="Quantity" id="Quantity">
+          <label for="color">color:</label>
+          <input type="color" id="color">
+          <label for="notes">Additional Notes</label>
+          <input type="text" placeholder="Additional Notes" id="notes">
+          <h3>Payment Information</h3>
+          <label for="Credit">Credit/Debit Card:</label>
+          <input type="radio" id="Credit" name="method">
+          <label for="Bank">Bank Transfer</label>
+          <input type="radio" id="Bank" name="method">
+          <label for="PayPal">PayPal</label>
+          <input type="radio" id="PayPal" name="method">
+          <br>
+          <button>submit</button>
+        </form>
+        </fieldset>
+        <section>
+        <h2>best-selling product</h2>
+        <table border="1px">
+          <thead>
+            <tr>
+              <th>image</th>
+              <th>name</th>
+              <th>price</th>
+              <th>Stock Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="./image/حصیر.jpg" alt="hasir">
+              </td>
+              <td>Basket</td>
+              <td>5$</td>
+              <td style="color: green;">in stok</td>
+            </tr>
+            <tr>
+              <td><img src="./image/مس.jpg" alt="mes"></td>
+              <td>Copperware</td>
+              <td>15$</td>
+              <td style="color:red;">Out of Stock</td>
+            </tr>
+            <tr>
+              <td><img src="./image/مینا.jpg" alt="minakari"></td>
+              <td>minakary</td>
+              <td>10$</td>
+              <td style="color: green;">in stok</td>
+            </tr>
+          </tbody>
+        </table>
+        </sectionn>
+    </main>
+    <footer>
+      <hr>
+      <h2>zarir shop</h2>
+      <p>The best store for handmade crafts.</p>
+
+    </footer>
+  </body>
+</html>
